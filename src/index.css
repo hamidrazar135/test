@@ -1,0 +1,24 @@
+.app {
+  display: flex;
+}
+
+.item-list {
+  width: 30%;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+
+.item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.item:hover {
+  background-color: #f0f0f0;
+}
+
+.item-details {
+  width: 70%;
+  padding: 20px;
+}
